@@ -1,0 +1,55 @@
+Weighted Speed, Character, Kart, Wheel, Glider
+8510, Peach, Pipe Frame, Roller, Cloud Glider
+8510, Peach, Varmint, Roller, Cloud Glider
+8510, Peach, City Tripper, Roller, Cloud Glider
+8724, Peach, Cat Cruiser, Roller, Cloud Glider
+8724, Peach, Teddy Buggy, Roller, Cloud Glider
+8724, Peach, Comet, Roller, Cloud Glider
+8724, Peach, Yoshi Bike, Roller, Cloud Glider
+8759, Peach, Biddybuggy, Roller, Cloud Glider
+8759, Peach, Mr Scooty, Roller, Cloud Glider
+8510, Peach, Landship, Roller, Cloud Glider
+8510, Peach, Streetle, Roller, Cloud Glider
+8510, Daisy, Pipe Frame, Roller, Cloud Glider
+8510, Daisy, Varmint, Roller, Cloud Glider
+8510, Daisy, City Tripper, Roller, Cloud Glider
+8724, Daisy, Cat Cruiser, Roller, Cloud Glider
+8724, Daisy, Teddy Buggy, Roller, Cloud Glider
+8724, Daisy, Comet, Roller, Cloud Glider
+8724, Daisy, Yoshi Bike, Roller, Cloud Glider
+8759, Daisy, Biddybuggy, Roller, Cloud Glider
+8759, Daisy, Mr Scooty, Roller, Cloud Glider
+8510, Daisy, Landship, Roller, Cloud Glider
+8510, Daisy, Streetle, Roller, Cloud Glider
+8510, Yoshi, Pipe Frame, Roller, Cloud Glider
+8510, Yoshi, Varmint, Roller, Cloud Glider
+8510, Yoshi, City Tripper, Roller, Cloud Glider
+8724, Yoshi, Cat Cruiser, Roller, Cloud Glider
+8724, Yoshi, Teddy Buggy, Roller, Cloud Glider
+8724, Yoshi, Comet, Roller, Cloud Glider
+8724, Yoshi, Yoshi Bike, Roller, Cloud Glider
+8759, Yoshi, Biddybuggy, Roller, Cloud Glider
+8759, Yoshi, Mr Scooty, Roller, Cloud Glider
+8510, Yoshi, Landship, Roller, Cloud Glider
+8510, Yoshi, Streetle, Roller, Cloud Glider
+8510, Birdo, Pipe Frame, Roller, Cloud Glider
+8510, Birdo, Varmint, Roller, Cloud Glider
+8510, Birdo, City Tripper, Roller, Cloud Glider
+8724, Birdo, Cat Cruiser, Roller, Cloud Glider
+8724, Birdo, Teddy Buggy, Roller, Cloud Glider
+8724, Birdo, Comet, Roller, Cloud Glider
+8724, Birdo, Yoshi Bike, Roller, Cloud Glider
+8759, Birdo, Biddybuggy, Roller, Cloud Glider
+8759, Birdo, Mr Scooty, Roller, Cloud Glider
+8510, Birdo, Landship, Roller, Cloud Glider
+8510, Birdo, Streetle, Roller, Cloud Glider
+8510, Mario, Biddybuggy, Roller, Cloud Glider
+8510, Mario, Mr Scooty, Roller, Cloud Glider
+8510, Ludwig, Biddybuggy, Roller, Cloud Glider
+8510, Ludwig, Mr Scooty, Roller, Cloud Glider
+8510, Medium Mii, Biddybuggy, Roller, Cloud Glider
+8510, Medium Mii, Mr Scooty, Roller, Cloud Glider
+8510, Luigi, Biddybuggy, Roller, Cloud Glider
+8510, Luigi, Mr Scooty, Roller, Cloud Glider
+8510, Iggy, Biddybuggy, Roller, Cloud Glider
+8510, Iggy, Mr Scooty, Roller, Cloud Glider

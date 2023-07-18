@@ -37,17 +37,17 @@ function weightedSpeed(character, kart, wheel, glider) {
 
 function IterateAllCharacters()
 {
-    fs.appendFileSync('output.txt', 'Weighted Speed, Character, Kart, Wheel, Glider\n');
+    fs.appendFileSync('TopKarts.txt', 'Weighted Speed, Character, Kart, Wheel, Glider\n');
     for (let character in CharacterData) {
         for (let kart in KartData) {
-            for (let wheel in WheelData) {
-                for (let glider in GliderData) {
+            let wheel = 'Roller'
+                let glider = 'Cloud Glider'
                     let weightedSpeedValue = weightedSpeed(character, kart, wheel, glider)
-                    fs.appendFileSync('output.txt', weightedSpeedValue + ', ' + character + ', ' + kart + ', ' + wheel + ', ' + glider + '\n');
+                    if(weightedSpeedValue > 8500){
+                    fs.appendFileSync('TopKarts.txt', weightedSpeedValue + ', ' + character + ', ' + kart + ', ' + wheel + ', ' + glider + '\n');
+                    }
                 }
             }
         }
-    }
-}
 
 IterateAllCharacters()
