@@ -75,8 +75,7 @@ const Data = {
     'Prancer':{'Speed':.25,'MiniTurbo':-.25}, 
     'Sport Bike':{'Speed':.25,'MiniTurbo':-.25}, 
     'Jet Bike':{'Speed':.25,'MiniTurbo':-.25},
-    'Biddybuggy':{'Speed':-.75,'MiniTurbo':.5}, 
-    'Mr Scooty':{'Speed':-.75,'MiniTurbo':.5}, 
+    'Biddybuggy, Mr Scooty':{'Speed':-.75,'MiniTurbo':.5}, 
     'Landship':{'Speed':-.5,'MiniTurbo':.25}, 
     'Streetle':{'Speed':-.5,'MiniTurbo':.25}, 
     'Sneaker':{'Speed':.25,'MiniTurbo':-.25}, 
@@ -99,8 +98,7 @@ const Data = {
     'Monster':{'Speed':0,'MiniTurbo':-.25}, 
     'Hot Monster':{'Speed':0,'MiniTurbo':-.25}, 
     'Ancient Tires':{'Speed':0,'MiniTurbo':-.25}, 
-    'Roller':{'Speed':-.5,'MiniTurbo':.5}, 
-    'Azure Roller':{'Speed':-.5,'MiniTurbo':.5}, 
+    'Roller, Azure Roller':{'Speed':-.5,'MiniTurbo':.5},  
     'Slim':{'Speed':.25,'MiniTurbo':-.25}, 
     'Wood':{'Speed':.25,'MiniTurbo':-.75}, 
     'Crimson Slim':{'Speed':.25,'MiniTurbo':-.75}, 
@@ -117,21 +115,8 @@ const Data = {
     'Cushion':{'Speed':-.25,'MiniTurbo':.25}
     },
 "GliderData" : {
-    'Super Glider':{'Speed':0,'MiniTurbo':0}, 
-    'Waddle Wing':{'Speed':0,'MiniTurbo':0}, 
-    'Hylian Kite':{'Speed':0,'MiniTurbo':0}, 
-    'Cloud Glider':{'Speed':-.25,'MiniTurbo':.25}, 
-    'Parachute':{'Speed':-.25,'MiniTurbo':.25}, 
-    'Flower Glider':{'Speed':-.25,'MiniTurbo':.25}, 
-    'Paper Glider':{'Speed':-.25,'MiniTurbo':.25}, 
-    'Wario Wing':{'Speed':0,'MiniTurbo':0}, 
-    'Plane Glider':{'Speed':0,'MiniTurbo':0}, 
-    'Gold Glider':{'Speed':0,'MiniTurbo':0}, 
-    'Paraglider':{'Speed':0,'MiniTurbo':0}, 
-    'Peach Parasol':{'Speed':-.25,'MiniTurbo':.25}, 
-    'Parafoil':{'Speed':-.25,'MiniTurbo':.25}, 
-    'Bowser Kite':{'Speed':-.25,'MiniTurbo':.25}, 
-    'MKTV Parafoil':{'Speed':-.25,'MiniTurbo':.25}
+    'Super Glider, Hylian Kite, Waddle Wing, Wario Wing, Plane Glider, Gold Glider, Paraglider':{'Speed':0,'MiniTurbo':0}, 
+    'Cloud Glider, Peach Parasol, Parachute, Flower Glider, Paper Glider, Parafoil, Bowser Kite, MKTV Parafoil':{'Speed':-.25,'MiniTurbo':.25}
     }
 }
 

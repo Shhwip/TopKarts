@@ -1,3 +1,4 @@
+import { Console } from 'console'
 import Data from './Data.mjs'
 import fs from 'fs'
 
@@ -35,19 +36,54 @@ function weightedSpeed(character, kart, wheel, glider) {
     return weightedSpeed
 }
 
-function IterateAllCharacters()
+function IterateAllCombos()
 {
-    fs.appendFileSync('TopKarts.txt', 'Weighted Speed, Character, Kart, Wheel, Glider\n');
+    let characterArray = new Array()
+    let cartCombo = {
+        weightedSpeedValue: 0,
+        character: '',
+        kart: '',
+        wheel: '',
+        glider: ''
+    }
+    fs.appendFileSync('output.txt', 'Weighted Speed, Character, Kart, Wheel, Glider\n');
     for (let character in CharacterData) {
         for (let kart in KartData) {
-            let wheel = 'Roller'
-                let glider = 'Cloud Glider'
+            for (let wheel in WheelData) {
+                for (let glider in GliderData) {
                     let weightedSpeedValue = weightedSpeed(character, kart, wheel, glider)
-                    if(weightedSpeedValue > 8500){
-                    fs.appendFileSync('TopKarts.txt', weightedSpeedValue + ', ' + character + ', ' + kart + ', ' + wheel + ', ' + glider + '\n');
+                    cartCombo = {
+                        weightedSpeedValue: weightedSpeedValue,
+                        character: character,
+                        kart: kart,
+                        wheel: wheel,
+                        glider: glider
+                    }
+                    characterArray.push(cartCombo)
+                }
+            }
+        }
+        characterArray.sort((a, b) => (b.weightedSpeedValue - a.weightedSpeedValue ))
+        for(let i = 0; i < characterArray.length; i++)
+        {
+        fs.appendFileSync('output.txt', characterArray[i].weightedSpeedValue + ', ' + characterArray[i].character + ', ' + characterArray[i].kart + ', ' + characterArray[i].wheel + ', ' + characterArray[i].glider + '\n');
+        }
+        characterArray = []
+    }
+}
+
+function IterateAllKingBoo()
+{
+    fs.appendFileSync('TopKingBoo.txt', 'Weighted Speed, Character, Kart, Wheel, Glider\n');
+   let character = 'Shy Guy'
+        for (let kart in KartData) {
+            for (let wheel in WheelData) {
+                for (let glider in GliderData) {
+                    let weightedSpeedValue = weightedSpeed(character, kart, wheel, glider)
+                    fs.appendFileSync('TopKingBoo.txt', weightedSpeedValue + ', ' + character + ', ' + kart + ', ' + wheel + ', ' + glider + '\n');
                     }
                 }
             }
         }
 
-IterateAllCharacters()
+IterateAllCombos()
